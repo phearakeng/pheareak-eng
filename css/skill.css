@@ -1,0 +1,371 @@
+body{
+    background-color: rgb(7, 7, 7);
+    margin: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-image: url(/images/skill/s.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px 0px 200px 0px;
+    -webkit-border-radius: 0px 0px 200px 0px;
+    -moz-border-radius: 0px 0px 200px 0px;
+}
+
+img{
+    margin-top: 50px;
+    background-color: rgb(30, 255, 0);
+    margin-left: 0px;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    box-shadow: 0px 2px 48px 21px rgba(239,84,21,1);
+    -webkit-box-shadow: 0px 2px 48px 21px rgba(239,84,21,1);
+    -moz-box-shadow: 0px 2px 48px 21px rgba(239,84,21,1);
+}
+
+.header .navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.header .navbar .logo{
+    color: orange;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.header .navbar .menu{
+    display: inline-block;
+    margin-right: 35px;
+    align-items: center;
+}
+
+.header .navbar .menu ul li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* text-shadow: 1px -3px 0px #fffb02fa; */
+}
+
+ul li {
+    display: inline-block;
+}
+
+.navbar{
+    width: 100%;
+    background: rgba(41, 158, 226, 0.205);
+}
+
+.navbar .menu{
+    justify-content: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.menu i{
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.navbar ul li:hover{
+    background: crimson;
+    height: 30px;
+}
+
+.menu ul li a:hover{
+    color: red;
+}
+
+.header .banner{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    color: rgb(49, 253, 13);
+    text-shadow: 2px -2px 0px #ff4a02fa;
+    font-size: 30px;
+    font-variant: small-caps;
+}
+
+.header .banner .app-text{
+    padding-left: 400px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    margin-top: 5px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 10px;
+    display: flex;
+}
+
+.menu ul li{
+    justify-content: flex-start;
+}
+
+i{
+    color: red;
+}
+i:hover{
+    color: rgb(250, 248, 248);
+}
+
+/*----------------------------- Header Style --------------------------*/
+
+.main-body{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+}
+
+h3{
+    color: rgb(195, 248, 4) ;
+    font-style: italic;
+    margin-top: 5px;
+    font-size: 30px;
+    text-shadow: rgb(253, 41, 4);
+}
+
+.main-body .soft-skill .main-soft{
+    justify-content: space-between;
+    display: flex;
+}
+
+.soft-skill{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.main-soft{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.soft-skill img{
+    border-radius: 0;
+    box-shadow: none;
+    width: 50%;
+    height: 100%;
+}
+
+.soft img{
+    border-radius: 0;
+    box-shadow: none;
+    width: 80%;
+    height: 100%;
+}
+
+/* -------------------------One-Picture Of pharagraph-------------------------- */
+
+.main-body{
+
+}
+.soft-skill .images{
+    background: rgba(7, 52, 255, 0.452);
+    padding: 10px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.soft-skill .images:hover{
+    background: rgba(255, 153, 0, 0.616);
+}
+
+.fa i{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fa-fa{
+    text-align: center;
+    
+}
+
+.fa-fa i{
+    color: white;
+    font-size: 20px;
+}
+
+/* -------------------------One-Picture Of pharagraph-------------------------- */
+
+.soft-skill .pharagraph{
+    background: rgba(7, 52, 255, 0.452);
+    padding: 10px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.soft-skill .pharagraph:hover{
+    background: rgba(255, 153, 0, 0.616);
+}
+
+.down{
+    text-align: center;
+}
+
+.down i{
+    color: white;
+    font-size: 20px;
+}
+
+/* -------------------------One-Picture Of pharagraph-------------------------- */
+
+.soft-skills .image{
+    background: rgba(255, 230, 7, 0.452);
+    padding: 10px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.soft-skills .image:hover{
+    background:rgba(30, 255, 0, 0.562);
+}
+
+.soft-skills img{
+    border-radius: 0;
+    box-shadow: none;
+    width: 50%;
+    height: 100%;
+}
+
+/* ----------------------------------footer----------------------------------- */
+
+.soft-skills .newpics{
+    background: rgba(255, 230, 7, 0.452);
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.soft-skills .newpics:hover{
+    background:rgba(30, 255, 0, 0.562);
+}
+.soft-skills .newpic{
+    border-radius: 0;
+    box-shadow: none;
+    width: 50%;
+    height: 100%;
+}
+
+.newpics{
+    text-align: center;
+}
+.newpics i{
+    color: white;
+    font-size: 20px;
+}
+
+.main-content{
+    display: flex;
+    margin-top: 60px;
+}
+
+footer{
+    bottom: 0px;
+    width: 100%;
+    background: rgb(41, 37, 37);
+    color: white;
+}
+
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h4{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content{
+    margin: 20px 0 0 0;
+}
+
+.left .content .social h6{
+    text-align: justify;
+}
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a{
+    padding: 0 2px;
+}
+
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.left .content .social a span:hover{
+    background: #fa5b11;
+}
+
+h6{
+    color: white;
+    font-variant: small-caps;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.place:hover{
+    margin: 10px;
+    background: #f12020;
+}
+
+.phone:hover{
+    margin: 10px;
+    background: #f12020;
+}
+
+.email:hover{
+    margin: 10px;
+    background: #f12020;
+}
+
+button[type=submit]{
+    background: yellow;
+    width: 100%;
+    height: 30px;
+    
+}
+
